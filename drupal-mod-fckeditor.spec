@@ -6,8 +6,7 @@ Release:	0.1
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://drupal.org/files/projects/%{modname}-%{version}.tar.gz
-# Source0-md5:	2dc5313fc417cad484bbfc434e3e971b
-Source1:	%{name}.conf
+# Source0-md5:	5238481c701a9e24ab050b80ef4f53ba
 URL:		http://drupal.org/project/fckeditor
 Requires:	php >= 3:4.3.0
 Requires:	drupal >= 4.6.0
