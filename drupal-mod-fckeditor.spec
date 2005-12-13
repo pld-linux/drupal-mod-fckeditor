@@ -1,5 +1,6 @@
 %define		modname fckeditor
 Summary:	Drupal FCKeditor WYSIWYG Editor Module
+Summary(pl):	Modu³ edytora WYSIWYG FCKeditor dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	4.6.0
 Release:	0.1
@@ -8,9 +9,9 @@ Group:		Applications/WWW
 Source0:	http://drupal.org/files/projects/%{modname}-%{version}.tar.gz
 # Source0-md5:	5238481c701a9e24ab050b80ef4f53ba
 URL:		http://drupal.org/project/fckeditor
-Requires:	php >= 3:4.3.0
 Requires:	drupal >= 4.6.0
 Requires:	fckeditor
+Requires:	php >= 3:4.3.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -24,6 +25,13 @@ This HTML text editor brings to the web many of the powerful
 functionalities of known desktop editors like Word. It's really
 lightweight and doesn't require any kind of installation on the client
 computer.
+
+%description -l pl
+Ten modu³ umo¿liwia Drupalowi zast±pienie pól textarea FCKeditorem.
+
+Ten edytor tekstu HTML udostêpnia stronom WWW wiele potê¿nych funkcji
+znanych edytorów biurowych, takich jak Word. Jest naprawdê lekki i nie
+wymaga ¿adnej inicjalizacji na komputerze klienckim.
 
 %prep
 %setup -q -n %{modname}
