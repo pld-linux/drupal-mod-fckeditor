@@ -3,7 +3,7 @@ Summary:	Drupal FCKeditor WYSIWYG Editor Module
 Summary(pl):	Modu³ edytora WYSIWYG FCKeditor dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	4.6.0
-Release:	0.1
+Release:	0.2
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://drupal.org/files/projects/%{modname}-%{version}.tar.gz
@@ -11,7 +11,7 @@ Source0:	http://drupal.org/files/projects/%{modname}-%{version}.tar.gz
 URL:		http://drupal.org/project/fckeditor
 Requires:	drupal >= 4.6.0
 Requires:	fckeditor
-Requires:	php >= 3:4.3.0
+Requires:	webserver(php) >= 4.3.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
