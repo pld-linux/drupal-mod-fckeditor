@@ -1,6 +1,6 @@
 %define		modname fckeditor
 Summary:	Drupal FCKeditor WYSIWYG Editor Module
-Summary(pl.UTF-8):   Moduł edytora WYSIWYG FCKeditor dla Drupala
+Summary(pl.UTF-8):	Moduł edytora WYSIWYG FCKeditor dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	4.6.0
 Release:	0.2
